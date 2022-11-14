@@ -14,6 +14,8 @@
 		204462B22921B4450086A9E2 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204462B12921B4450086A9E2 /* MyFirstAppTests.swift */; };
 		204462BC2921B4450086A9E2 /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204462BB2921B4450086A9E2 /* MyFirstAppUITests.swift */; };
 		204462BE2921B4450086A9E2 /* MyFirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204462BD2921B4450086A9E2 /* MyFirstAppUITestsLaunchTests.swift */; };
+		20F70DA02921DAD20025E7C5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F70D9F2921DAD20025E7C5 /* CircleImage.swift */; };
+		20F70DA22921DC1F0025E7C5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F70DA12921DC1F0025E7C5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		204462B72921B4450086A9E2 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204462BB2921B4450086A9E2 /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		204462BD2921B4450086A9E2 /* MyFirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20F70D9F2921DAD20025E7C5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		20F70DA12921DC1F0025E7C5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				204462A02921B4420086A9E2 /* MyFirstAppApp.swift */,
 				204462A22921B4420086A9E2 /* ContentView.swift */,
+				20F70D9F2921DAD20025E7C5 /* CircleImage.swift */,
+				20F70DA12921DC1F0025E7C5 /* MapView.swift */,
 				204462A42921B4450086A9E2 /* Assets.xcassets */,
 				204462A62921B4450086A9E2 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				204462A32921B4420086A9E2 /* ContentView.swift in Sources */,
+				20F70DA22921DC1F0025E7C5 /* MapView.swift in Sources */,
 				204462A12921B4420086A9E2 /* MyFirstAppApp.swift in Sources */,
+				20F70DA02921DAD20025E7C5 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
